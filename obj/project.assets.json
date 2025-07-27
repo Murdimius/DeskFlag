@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "XamlAnimatedGif/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/XamlAnimatedGif.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/XamlAnimatedGif.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "XamlAnimatedGif/2.3.1": {
+      "sha512": "LthlwWKP3fGGZBp3xnBzMOygUihFX0gj1vAEyCgt1lrq6d1fPxtpEmrzpwzQiX+AJ/TnZn+7a2FjRXQL/K0h6w==",
+      "type": "package",
+      "path": "xamlanimatedgif/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "assets/xamlanimatedgif.png",
+        "lib/net45/XamlAnimatedGif.dll",
+        "lib/net45/XamlAnimatedGif.pdb",
+        "lib/net5.0-windows7.0/XamlAnimatedGif.dll",
+        "lib/net5.0-windows7.0/XamlAnimatedGif.pdb",
+        "lib/netcoreapp3.1/XamlAnimatedGif.dll",
+        "lib/netcoreapp3.1/XamlAnimatedGif.pdb",
+        "xamlanimatedgif.2.3.1.nupkg.sha512",
+        "xamlanimatedgif.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "XamlAnimatedGif >= 2.3.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tyler\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Development\\DeskFlag\\DeskFlag\\DeskFlag.csproj",
+      "projectName": "DeskFlag",
+      "projectPath": "D:\\Development\\DeskFlag\\DeskFlag\\DeskFlag.csproj",
+      "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
+      "outputPath": "D:\\Development\\DeskFlag\\DeskFlag\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "XamlAnimatedGif": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
